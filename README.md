@@ -50,5 +50,11 @@ CUDA_VISIBLE_DEVICES=0 python3 infer_craft_with_refinet.py --craftonnxpath <craf
 General | SynthText, IC13, IC17 | Eng + MLT | For general purpose | [Click](https://drive.google.com/file/d/1Tn5MUTyOUtRqQZSu_YjvVhiEkVPMI3ml/view?usp=share_link)
 LinkRefiner | CTW1500 | - | Used with the General Model | [Click](https://drive.google.com/file/d/1owsijdhNvodzXqE8ucZNAg69f7hjoMar/view?usp=share_link)
 
+## To do list
+- [x] Convert General craft_mlt_25k to ONNX with dynamic shape 
+- [x] Convert LinkRefiner to ONNX with dynamic shape  
+- [ ] Convert General craft_mlt_25k to TensorRT with dynamic shape 
+- [ ] Convert LinkRefiner to TensorRT with dynamic shape
+- [ ] Convert IC15 to ONNX with dynamic shape
 ## REFERENCE
 1. https://github.com/clovaai/CRAFT-pytorch
