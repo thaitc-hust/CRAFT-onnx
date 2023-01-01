@@ -47,7 +47,7 @@ CUDA_VISIBLE_DEVICES=0 python3 infer_craft_with_refinet.py --craftonnxpath <craf
 
  *Model name* | *Used datasets* | *Languages* | *Purpose* | *Model ONNX Link* |
  | :--- | :--- | :--- | :--- | :--- |
-General | SynthText, IC13, IC17 | Eng + MLT | For general purpose | [Click]()
+General | SynthText, IC13, IC17 | Eng + MLT | For general purpose | [Click](https://drive.google.com/file/d/1Tn5MUTyOUtRqQZSu_YjvVhiEkVPMI3ml/view?usp=share_link)
 LinkRefiner | CTW1500 | - | Used with the General Model | [Click](https://drive.google.com/file/d/1owsijdhNvodzXqE8ucZNAg69f7hjoMar/view?usp=share_link)
 
 ## REFERENCE
